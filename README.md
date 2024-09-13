@@ -203,9 +203,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10
 ```
-/*
-### Question 15: Categorize the content based on the presence of the keywords 'kill' and 'violence' in  the description field. Label content containing these keywords as 'Bad' and all other  content as 'Good'. Count how many items fall into each category.
-*/
+### Question 15: Categorize the content based on the presence of 'Kill' and 'Violence' keywords 
 
 ```
 SELECT 
@@ -224,7 +222,7 @@ FROM (
 GROUP BY 1,2
 ORDER BY 2
 ```
-
-
+/*Objective: Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+*/
 
 -- End of reports
